@@ -15,7 +15,7 @@ export default function Drawings() {
 
   return (
     <section id="drawings" className="section">
-      <h2 className="section-title"><span>//</span>DRAWINGS</h2>
+      <h2 className="section-title"><span className="section-prefix">//</span>DRAWINGS</h2>
       <div className="grid">
         {drawings.map(item => (
           <div className="card" key={item.label} onClick={() => setLightbox(item)} style={{ cursor: 'zoom-in' }}>

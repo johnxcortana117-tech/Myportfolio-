@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section">
-      <h2 className="section-title"><span>//</span>CONTACT</h2>
+      <h2 className="section-title"><span className="section-prefix">//</span>CONTACT</h2>
       <form
         onSubmit={handleSubmit}
         style={{
@@ -92,7 +92,7 @@ export default function Contact() {
             boxShadow: '0 0 10px rgba(0,255,0,0.2)',
           }}
         >
-          {sent ? '// TRANSMISSION SENT //' : 'SUBMIT SYSTEM ENTRY'}
+          {sent ? '[ TRANSMISSION SENT ]' : 'SUBMIT SYSTEM ENTRY'}
         </button>
       </form>
     </section>

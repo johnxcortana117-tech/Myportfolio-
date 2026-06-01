@@ -24,7 +24,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section">
-      <h2 className="section-title"><span>//</span>PROJECTS</h2>
+      <h2 className="section-title"><span className="section-prefix">//</span>PROJECTS</h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
         {projects.map(p => (
           <div

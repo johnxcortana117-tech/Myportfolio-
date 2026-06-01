@@ -13,7 +13,7 @@ const gunpla = [
 export default function Gunpla() {
   return (
     <section id="gunpla" className="section">
-      <h2 className="section-title"><span>//</span>GUNPLA COLLECTION</h2>
+      <h2 className="section-title"><span className="section-prefix">//</span>GUNPLA COLLECTION</h2>
       <div className="grid">
         {gunpla.map(item => (
           <div className="card" key={item.label}>
