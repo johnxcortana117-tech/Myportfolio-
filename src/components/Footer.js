@@ -13,7 +13,7 @@ export default function Footer() {
       letterSpacing: '1px'
     }}>
       <p>SYSTEM DATE: {new Date().toLocaleString()}</p>
-      <p style={{ marginTop: '6px' }}>// END OF FILE //</p>
+      <p style={{ marginTop: '6px' }}>{'// END OF FILE //'}</p>
     </footer>
   );
 }

@@ -24,7 +24,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section">
-      <h2 className="section-title"><span className="section-prefix">//</span>PROJECTS</h2>
+      <h2 className="section-title"><span className="section-prefix">{"//"}</span>PROJECTS</h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
         {projects.map(p => (
           <div
@@ -42,7 +42,7 @@ export default function Projects() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
                 <span style={{ fontFamily: 'Courier New', fontSize: '1.1rem', letterSpacing: '2px' }}>{p.name}</span>
-                <span style={{ color: 'rgba(0,255,0,0.5)', fontSize: '0.8rem', marginLeft: '12px' }}>// {p.subtitle}</span>
+                <span style={{ color: 'rgba(0,255,0,0.5)', fontSize: '0.8rem', marginLeft: '12px' }}>{'// '}{p.subtitle}</span>
               </div>
               <span style={{
                 fontSize: '0.7rem', padding: '3px 10px',

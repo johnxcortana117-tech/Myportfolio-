@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section">
-      <h2 className="section-title"><span className="section-prefix">//</span>CONTACT</h2>
+      <h2 className="section-title"><span className="section-prefix">{"//"}</span>CONTACT</h2>
       <form
         onSubmit={handleSubmit}
         style={{

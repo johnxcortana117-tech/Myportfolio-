@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import MatrixCanvas from './components/MatrixCanvas';
 import Overlay from './components/Overlay';
 import Nav from './components/Nav';

@@ -29,7 +29,7 @@ export default function About() {
 
   return (
     <section id="about" className="section" ref={ref}>
-      <h2 className="section-title"><span className="section-prefix">//</span>ABOUT ME</h2>
+      <h2 className="section-title"><span className="section-prefix">{"//"}</span>ABOUT ME</h2>
       <div style={{
         border: '1px solid rgba(0,255,0,0.25)',
         padding: '20px',
