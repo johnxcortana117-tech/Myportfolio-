@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const fullText = `Hi. This is a brief introduction about myself. Well nothing too special here, but you know, im a man of multiple thoughts, deep and entropic. Silence adorned with self reflection between the frequencies of the universe is my favorite idle activity, on top of drawing and building gunplas.`;
+const fullText = `Hi. I am Shaun Irvine A. Punag. This is a brief introduction about myself. Well nothing too special here, but you know, im a man of multiple thoughts, deep and entropic. Silence adorned with self reflection between the frequencies of the universe is my favorite idle activity, on top of drawing and building gunplas.`;
 
 export default function About() {
   const [displayed, setDisplayed] = useState('');
